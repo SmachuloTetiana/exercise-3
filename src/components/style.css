@@ -1,0 +1,49 @@
+.container {
+    max-width: 960px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    flex: 0 0 50%;
+}
+
+.input-textfield {
+    width: 200px;
+    height: 40;
+    background: #f8f9fe;
+    border: 1px solid #a3aab8;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #768094;
+    line-height: 40px;
+    padding: 0 15px;
+}
+
+.input-textfield:focus,
+.input-textfield:hover {
+    border-color: #3271fc;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #020c1f;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #020c1f;
+}
+
+.subtitle_blue {
+    color: #3271fc;
+}
+
+.subtitle_gray {
+    color: #7c8699;
+}
